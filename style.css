@@ -1,0 +1,176 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: metropolis;
+}
+
+body{
+    background-image: url(Assets/background-image.png);
+    
+    height: 100vh;
+    width: 1440px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin: auto;
+
+}
+
+nav{
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    height: 10vh;
+
+}
+
+
+.nav-list ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-list ul a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 16px;
+}
+.nav-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    font-weight: bold;
+}
+.nav-button > button{
+    padding: 8px 15px ;
+    border: none;
+    color: white;
+    background-color: #ed017e;
+    border-radius: 5px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 7%;
+    height: 82vh;
+}
+
+.main-hero-left{
+    position: relative;
+    width: 35%;
+}
+
+.main-hero-left h1{
+    font-size: 65px;
+    padding-bottom: 20px;
+
+}
+.main-hero-left p{
+    font-size: 25px;
+    color: grey;
+    padding-bottom: 20px;
+}
+
+/* .hero-btns{
+    margin-bottom: 40px;
+} */
+.cta-one{
+    padding: 10px 20px;
+    border: none;
+    background-color: #ed017e;
+    color: white;
+    border-radius: 5px;
+}
+.cta-two{
+    padding: 10px 20px ;
+    border:1px solid #ed017e;
+    color: #ed017e;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    position: absolute;
+    bottom: -120px;
+
+}
+
+.contact-one{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.contact-one p{
+    padding-top: 20px;
+}
+.contact-two{
+    height: 20px;
+    width: 2px;
+    background-color: grey;
+    margin: 0px 10px;
+    
+}
+
+.contact-three ul{
+    display: flex;
+    
+    list-style-type: none;
+    align-items: center;
+    gap:10px;
+
+}
+
+.main-hero-right{
+    position: relative;
+    width: 65%;
+
+}
+.car-loans{
+    position: absolute;
+    top: 9%;
+    left:12%;
+    display: flex;
+    align-items: center;
+    width: 110px;
+    justify-content: space-between;
+    padding: 10px 15px ;
+    border-radius: 30px;
+    background-color: white;
+    border: none;
+    box-shadow: 1px 1px 20px grey;
+}
+.home-loans{
+    position: absolute;
+    right: 7%;
+    top: 30%;
+    display: flex;
+    align-items: center;
+    width: 110px;
+    justify-content: space-between;
+    padding: 10px 15px ;
+    border-radius: 30px;
+    background-color: white;
+    border: none;
+    box-shadow: 1px 1px 20px grey;
+}
+
+.hero-image{
+    width: 100%;
+}
+
+@media screen and (max-width:768px){
+    body{
+        background-position: center;
+    }
+}
